@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SALDO TM</title>
+    <!-- link de sitio sweetalert mensajes más elegantes-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js">
+        </script>
+</head>
+<body>
+    <center>
+        <img src="img/png-transparent-transmilenio-logo-transport-n-cdr-angle-text.png" alt="150" height="150">
+            <h2>SALDO DE TARJETA TU LLAVE TM</h2>
+            <script>
+                var saldo=0;
+                const tm=2650;
+                saldo=parseInt(prompt("Ingrese saldo de su tarjeta de trasmilenio"));
+                //PROCESO
+                if (saldo>=tm){
+                    swal("SEÑOR USUARIO","INGRESE A SISTEMA","success");
+                    }else{
+                        swal("SEÑOR USUARIO","RECARGUE TARJETA","error");
+                    }
+                   
+            </script>
+    </center>
+    
+</body>
+</html>

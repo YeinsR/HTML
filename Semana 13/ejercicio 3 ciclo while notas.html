@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CICLO WHILE</title>
+</head>
+<body>
+    <center>
+        <h1>BOLETIN NOTAS DE PROGRAMACION PAE</h1>
+        <H3>NOTA1=DESEMPEÑO // NOTA2=TALLERES // NOTA3=CUESTIONARIO</H3>
+        <script>
+            let nota_STD, suma, prom;
+            suma=0;//acumulador notas
+            prom=0;//nota definitiva
+            num=1;//contador de notas
+            nomb_std=prompt("Ingrese nombre estudiante");
+            //PROCESO
+            while (num<=3){
+                nota_STD=parseFloat(prompt("Ingrese nota [1 a 5]:"));
+                suma+=nota_STD;//Acumulador
+                num++;//Contador
+            }
+            prom=suma/3;
+            //Validar nota final
+            if (prom>=3.0){
+             document.write(" Estudiante "+ " "+nomb_std);
+             document.write("<br>"+"<br>");
+            document.write("Nota final de programacion es"+"  "+ prom.toFixed(2)+"<br>"+"<br>");
+            document.write("FELICITACIONES !! -- APRUEBA MATERIA PROGRAMACION PAE");
+            }else{
+            document.write(" Estudiante "+ " "+nomb_std);
+            document.write("<br>"+"<br>");
+             document.write("Nota final de programacion es"+"  "+ prom.toFixed(2)+"<br>"+"<br>");
+            document.write("REPRUEBA MATERIA PROGRAMACION PAE","error");
+    }
+        </script>
+    </center>
+    
+</body>
+</html>

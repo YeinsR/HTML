@@ -1,0 +1,5 @@
+D:\2-INCAP\NET\Ejecutable2\nomina.exe
+D:\2-INCAP\NET\Ejecutable2\nomina.dll
+D:\2-INCAP\NET\Ejecutable2\nomina.deps.json
+D:\2-INCAP\NET\Ejecutable2\nomina.runtimeconfig.json
+D:\2-INCAP\NET\Ejecutable2\nomina.pdb
